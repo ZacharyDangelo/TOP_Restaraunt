@@ -9,6 +9,5 @@ export default function createHomeSection(){
     const subTagline = document.createElement("h3");
     subTagline.textContent = "Est. circa 1170";
 
-    const img;
 
 }
