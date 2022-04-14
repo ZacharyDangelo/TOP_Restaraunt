@@ -1,0 +1,35 @@
+[33mcommit 1ff308aeec680a561484ab44c6ffd777d2907831[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 10:25:43 2022 -0400
+
+    Styled header.
+
+[33mcommit 8166c54c595e2b5a373098c29c647e5f77616a0b[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 10:18:06 2022 -0400
+
+    Home page created.
+
+[33mcommit 9d2739c8411055d79f993efec1eeb60fcee0849b[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 09:45:08 2022 -0400
+
+    Added CSS loader and fixed an error from last commit.
+
+[33mcommit b3215bca00db34f2c78d46dd578123aeb1761d65[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 09:43:46 2022 -0400
+
+    Created page.js to create barebones page elements.
+
+[33mcommit 6e3ad1c1425bec6b97fb828166664e5ccb47b5e5[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 09:23:06 2022 -0400
+
+    Created webpack and node packages.
+
+[33mcommit 5986c41aeb9599e04f7abc7fe6902c502aed6105[m
+Author: Zach <zachdangelo100@gmail.com>
+Date:   Thu Apr 14 09:10:00 2022 -0400
+
+    Initial commit adding files
