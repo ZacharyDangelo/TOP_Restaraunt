@@ -14,6 +14,7 @@ export default function createHomeSection(){
     infoContainer.appendChild(subTagline);
 
     const img = document.createElement("img");
+    img.classList.add("owner-image");
     img.src = Image;
     infoContainer.appendChild(img);
     

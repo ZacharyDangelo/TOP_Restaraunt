@@ -1,15 +1,15 @@
 export default function createPage(){
     const container = document.querySelector('#content');
-    createHeader(container);
+    createHeader(document.body);
     createBody(container);
-    createFooter(container);
+    createFooter(document.body);
 };
 
 
 function createHeader(container){
     const headerContainer = document.createElement('div');
     headerContainer.classList.add('header-container');
-    container.appendChild(headerContainer);
+    container.prepend(headerContainer);
 
     const headerText = document.createElement('h1');
     headerText.textContent = "Lil Fibonacci's";
