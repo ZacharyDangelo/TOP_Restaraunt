@@ -1,5 +1,10 @@
 import PepperoniImage from "./pepperoni.png"
-
+import MushroomImage from "./mushroom.png"
+import RedImage from "./red.png"
+import PlainImage from "./plain.png"
+import OliveImage from "./olive.png"
+import EverythingImage from "./everything.jpg"
+import Everything2Image from "./everything2.png"
 
 
 export default function createMenuSection(){
@@ -7,13 +12,11 @@ export default function createMenuSection(){
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu-container");
     menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
-    menuContainer.appendChild(createMenuItem(PepperoniImage, "Pepperoni", "This is a slice of Pepperoni pizza. My favorite!"));
+    menuContainer.appendChild(createMenuItem(MushroomImage, "Mushroom", "Mushrooms, pepperoni, and some greens. You'll love it!"));
+    menuContainer.appendChild(createMenuItem(RedImage, "Red", "A red slice! It's got all the goodies you could imagine on there."));
+    menuContainer.appendChild(createMenuItem(PlainImage, "Plain", "Maybe you're just feeling a little plain today, that's okay too."));
+    menuContainer.appendChild(createMenuItem(OliveImage, "Olive", "Olives and pepperonis oh my! Probably pretty tasty if you're into that sort of thing."));
+    menuContainer.appendChild(createMenuItem(EverythingImage, "Everything", "Everything in the kitchen that's what I'm throwin on this slice. If we got it, it's on there."));
 
 
     container.appendChild(menuContainer);
