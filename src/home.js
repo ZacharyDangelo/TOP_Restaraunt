@@ -1,6 +1,6 @@
 import Image from './img.png';
 
-export default function createHomeSection(){
+export default function createHomePage(){
     const container = document.querySelector("#body-container");
     const infoContainer = document.createElement("div");
     infoContainer.classList.add("info-container");

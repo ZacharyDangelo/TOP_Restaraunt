@@ -7,7 +7,7 @@ import EverythingImage from "./everything.jpg"
 import Everything2Image from "./everything2.png"
 
 
-export default function createMenuSection(){
+export default function createMenuPage(){
     const container = document.querySelector("#body-container");
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu-container");

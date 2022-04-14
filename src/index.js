@@ -1,14 +1,17 @@
 import createPage from "./page";
-import createHomeSection from "./home";
-import createMenuSection from "./menu";
+import createHomePage from "./home";
+import createMenuPage from "./menu";
 import './style.css';
+import createContactPage from "./contact";
 
 
 
 createPage();
-createHomeSection();
+createHomePage();
 clearPage();
-createMenuSection();
+createMenuPage();
+clearPage();
+createContactPage();
 
 
 function clearPage(){
