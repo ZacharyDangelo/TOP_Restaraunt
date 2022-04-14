@@ -1,9 +1,5 @@
+import createPage from "./page";
 
 
-
-function createPage(){
-    
-
-}
 
 createPage();
